@@ -1,0 +1,27 @@
+h1 {
+    border: 2px solid green;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.red {
+    border: 4px solid red;
+    margin: 40px 0;
+    padding: 30px;
+}
+
+.red h2 {
+    border: 2px solid green;
+    color: red;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.blue {
+    border: 4px dashed blue;
+    margin: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    color: blue;
+}
