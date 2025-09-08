@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+/* Almennt Ãºtlit */
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+   
+}
+
+/* NAV */
+nav {
+    
+    text-align: left;
+    background-color: #e0e0e0;
+    padding: 1rem;
+    border-bottom: 2px solid #000;
+}
+nav ul>li{display: inline;}
+nav a {
+    
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+nav a:visited {
+    color: #5c5c5c;
+}
+
+nav a:active {
+    color: red;
+}
+nav .efnisord1 {
+    display: inline;
+    background-color: #aaa;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Header */
+header{
+    background-color: cyan;
+}
+header h1 {
+    background-color: yellow;
+    font-size: 64px;
+    /*margin-top: 1rem;*/
+    color: blue;
+}
+
+/* Fyrsta mÃ¡lsgrein */
+h4 {
+    font-size: 1.1em;
+    color: #444;
+}
+.greinarhlekkur a{text-decoration: none;color:#000}
+/* StÃ­la fyrsta staf Ã­ inngangsmÃ¡lsgrein */
+.first-letter {
+    font-size: 4em;
+    float: left;
+    line-height: 1;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #990000;
+}
+/* main container */
+main {
+   
+    
+    margin: 0 auto; /* miÃ°jusett */
+    overflow: hidden; /* tryggir aÃ° float-efni "falli inn Ã­" main */
+}
+
+/* aside til vinstri */
+aside {
+    width: 20%;
+    float: right;
+}
+
+/* article til hÃ¦gri */
+article {
+    width: 80%;
+    float: left;
+}
+
+/* Mynd Ã­ grein */
+.flright {
+    float: right;
+    width: 50%;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+/* Mynd Ã­ grein */
+.flleft {
+    float: left;
+    width: 40%;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+/*article::after {
+    content: "";
+    display: table;
+    clear: both;
+}*/
+
+
+/* EfnisorÃ° */
+aside .efnisord {
+    display: block;
+    background-color: #ddd;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.efnisord:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    width:100%;
+    margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-top: 2px solid #ccc;
+  background-color: #eaeaea;
+  font-size: 0; /* tekur burt bil milli inline-blocks */
+  
+}
+
+.footerleft,
+.footerright {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  font-size: 16px; /* setur aftur normal texta */
+}
+
+.footerright a {
+  display: block;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.footerright a:hover {
+  text-decoration: underline;
+}
+
+footer a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

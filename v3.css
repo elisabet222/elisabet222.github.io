@@ -1,0 +1,25 @@
+.testimonial-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+
+}
+
+.four{
+    grid-template-columns: 2fr;
+    grid-column: span 2;
+    background: #00DEB1 !important;
+}
+
+.two{
+    background: #9799e0 !important;
+}
+
+.three{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3
+}

@@ -1,0 +1,25 @@
+body{
+    background: mediumspringgreen;
+}
+.fs1{
+    text-align: center;
+    color: navy;
+    font-style: italic;
+    font-size: large;
+}
+.fs2{
+    color: green;
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bold;
+}
+h1{
+    color: maroon;
+    text-align: end;
+    font-size: larger;
+}
+h4{
+    color: blueviolet;
+    font-size: xx-large;
+    font-style: italic;
+}
